@@ -17,4 +17,7 @@ endpoints:
   shutdown:
     enabled: true
   health:
-    sensitive: false
+    sensitive: false   
+helloconsumer:
+  ribbon:
+    NIWSServerListClassName: org.apache.servicecomb.springboot.starter.discovery.ServiceCombServerList
