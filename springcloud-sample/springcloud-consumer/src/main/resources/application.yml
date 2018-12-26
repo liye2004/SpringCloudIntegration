@@ -21,3 +21,9 @@ endpoints:
 helloconsumer:
   ribbon:
     NIWSServerListClassName: org.apache.servicecomb.springboot.starter.discovery.ServiceCombServerList
+    
+cse:
+  credentials:
+    accessKey: 2YJOW5CHCSHNKUCCJMPP
+    secretKey: Qk3PGS6ArqXc0schaAYfrUait7BtzKhxpx4ifk48
+    akskCustomCipher: default
