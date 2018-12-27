@@ -23,6 +23,13 @@ helloconsumer:
     NIWSServerListClassName: org.apache.servicecomb.springboot.starter.discovery.ServiceCombServerList
     
 cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com:443
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+
   credentials:
     accessKey: 2YJOW5CHCSHNKUCCJMPP
     secretKey: Qk3PGS6ArqXc0schaAYfrUait7BtzKhxpx4ifk48
