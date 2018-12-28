@@ -21,9 +21,7 @@
 	<modules>
 		<module>springcloud-provider</module>
 		<module>springcloud-consumer</module>
-        <!--
 		<module>eureka-server</module>
-        -->
 	</modules>
 
 	<properties>
@@ -34,12 +32,10 @@
 	</properties>
 
 	<dependencies>
-        <!--
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
-        -->
         <dependency>
             <groupId>com.huawei.paas.cse</groupId>
             <artifactId>cse-solution-spring-cloud</artifactId>
